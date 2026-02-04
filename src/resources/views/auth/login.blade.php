@@ -36,6 +36,9 @@
             </div>
             <button class="login-button" type="submit">ログインする</button>
         </form>
+        <div class="auth-link-wrap">
+            <a class="auth-link" href="{{ route('register') }}">会員登録はこちら</a>
+        </div>
     </div>
 </section>
 @endsection
